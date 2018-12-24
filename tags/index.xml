@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Mingyang Zhao</title>
-    <link>http://mzhao.page/tags/</link>
+    <link>https://mzhao.page/tags/</link>
     <description>Recent content in Tags on Mingyang Zhao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://mzhao.page/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mzhao.page/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

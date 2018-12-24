@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://mzhao.page/categories/</loc>
+    <loc>https://mzhao.page/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mzhao.page/</loc>
+    <loc>https://mzhao.page/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mzhao.page/tags/</loc>
+    <loc>https://mzhao.page/tags/</loc>
     <priority>0</priority>
   </url>
   
