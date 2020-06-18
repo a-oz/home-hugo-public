@@ -4,9 +4,9 @@ name: mzh.us
 # events but only for the master branch
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master ]
+    branches: [master]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -15,9 +15,8 @@ jobs:
     container: cypress/included:4.8.0
 
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
 
-#     - name: Run cypress with recording
-#       run: cypress run --record
-
+      - name: Run cypress with recording
+        run: cypress run --record
