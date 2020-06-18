@@ -20,3 +20,6 @@ jobs:
 
       - name: Run cypress with recording
         run: cypress run --record
+        env:
+          # record key
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
